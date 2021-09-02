@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.welcome {
+  text-align: center;
+}
+
+#auth-layout {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  column-gap: 40px;
+}
+
+.who-we-are {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.about-us {
+  display: flex;
+}
+
+.image-section {
+  background: url(./images/Image\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 40%;
+  height: 100vh;
+}
+
+.about us {
+  width: 40%;
+  height: 100vh;
+  padding: 40px;
+  margin: 40px;
+}
+
+#form-section {
+  background-color: white;
+  border: 2px solid grey;
+  margin: 25%;
+  padding: 40px;
+}
+
+.form-row .input-box {
+  width: 100%;
+}
+
+.form-row .input-box input {
+  width: 100%;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.form-row .textarea-section {
+  width: 100%;
+}
+
+.form-row .textarea-section textarea {
+  width: 100%;
+  height: 80px;
+}
+
+.button-section button {
+  background: blue;
+  padding: 8px 40px;
+  border: none;
+  color: whitesmoke;
+}
+.button-section {
+  display: flex;
+  justify-content: flex-end;
+}
